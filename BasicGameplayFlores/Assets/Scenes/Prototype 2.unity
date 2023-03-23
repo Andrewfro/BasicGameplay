@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animal_Fox_01
       objectReference: {fileID: 0}
+    - target: {fileID: 586964941515267853, guid: a166c40cc06772b479dd402605ea9db0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 586964941515739479, guid: a166c40cc06772b479dd402605ea9db0, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -535,6 +539,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animal_Moose_02
       objectReference: {fileID: 0}
+    - target: {fileID: 5539449334523818758, guid: ac6c4db264aeb3c469783140c9610b8b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5539449334524029138, guid: ac6c4db264aeb3c469783140c9610b8b, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -731,6 +739,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animal_Doe_01
       objectReference: {fileID: 0}
+    - target: {fileID: 6045204376313757970, guid: e1267f8c008e07d46987aed512a70b8f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6045204376314046452, guid: e1267f8c008e07d46987aed512a70b8f, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -878,8 +890,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   horizontalInput: 0
+  verticalInput: 0
   speed: 30
   xRange: 10
+  zRange: 15
   projectilePrefab: {fileID: 1980840666942594371, guid: daa7ab0fc78eb80438cb4a4626164219, type: 3}
 --- !u!850595691 &2046722341
 LightingSettings:
